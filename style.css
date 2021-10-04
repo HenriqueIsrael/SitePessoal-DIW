@@ -1,0 +1,204 @@
+html{
+    height: 100%;
+}
+
+.header{
+    background-color: #727272;
+}
+
+body{
+    background-color: #c1c1c1;
+}
+
+.header nav a{
+    color: white;
+    padding: 20px;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pesquisa{
+    height: 40px;
+}
+
+.nav-links{
+    display: flex;
+}
+
+.perfil{
+    margin-top: 25px;
+}
+
+.perfil-descricao{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.perfil img{
+    border-radius: 5%;
+    height: 302px;
+    width: 227px;
+    margin: 6px;
+}
+
+.descricao-experiencia{
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0 0;
+    justify-content: space-between;
+
+}
+.descricao h2{
+    margin-top: 10rem;
+}
+
+.fa-linkedin{
+    height: 35px;
+    width: 35px;
+    margin: 20px;
+}
+
+.fa-github{
+    height: 35px;
+    width: 35px;
+    margin-left: 20px;
+    margin: 20px;
+}
+
+.projetos{
+    margin-top: 50px;
+}
+.projetos p{
+    text-align: left;
+    margin: 16px;
+}
+
+.projetos img{
+    width: 150px;
+    height: 150px;
+    border-radius: 10%;
+}
+
+.experiencia{
+    display: flex;
+}
+
+.experiencias h2{
+    margin-top: 20px;
+}
+
+.experiencia img{
+    border-radius: 10%;
+    height: 200px;
+    width: 200px;
+    padding: 10px;
+}
+
+.repositorios{
+    margin-bottom: 20px;
+    background-color: rgb(168,168,168);
+}
+
+.github h2{
+    margin-top: 20px;
+}
+
+.recomendacao ul li{
+    list-style: none;
+    text-align: center;
+}
+
+.recomendacao h2{
+    margin-top: 20px;
+}
+
+.recomendacao ul{
+    display: flex;
+}
+
+.name-icon{
+    display: flex;
+}
+
+.name-icon svg{
+    margin-right: 8px;
+}
+
+.footer{
+    background-color: #727272;
+
+}
+
+.footer a{
+    color: white;
+}
+
+.footer p{
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.dropdown-projetos{
+    display: flex;
+    justify-content: space-between;
+}
+
+.botao_projetos{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.botao_experiencia{
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .recomendacao ul{
+        flex-direction: column;
+    }
+
+    .nav-links{
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .nav{
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 8px;
+    }
+
+    .experiencia{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .experiencia div{
+        text-align: center;
+    }
+
+    .perfil-descricao{
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .imagem{
+        text-align: center;
+    }
+
+    .dropdown-projetos{
+        margin-bottom: 30px;
+    }
+  }
