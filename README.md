@@ -18,4 +18,4 @@
 
 <h2>Conclusão</h2>
 <p>Nesse projeto aprendi um pouco mais sobre o desenvolvimento web e implementar a responsividade utilizando o framework bootstrap.</p>
-<div align="center"><img width="200px" height="375px" src="./animação.gif"></div>
+<div align="center"><img src="./Animação.gif"></div>
